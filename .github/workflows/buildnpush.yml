@@ -25,4 +25,4 @@ jobs:
         steps:
             - uses: actions/checkout@v4
             - name: Docker Hub Login
-              run: echo "mypassword" |  docker login -u codewithfaraz -password-stdin
+              run: docker login -u codewithfaraz -p
